@@ -1,9 +1,11 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const Header = () => {
   return (
-    <div className=''>
-        <h1 className='border-b font-bold p-3'>AppHeaders</h1>
+    <div className='border-b p-3 flex justify-between items-center'>
+        <span className='font-bold'>AppHeaders</span>
+        <Navigation/>
     </div>
   )
 }
