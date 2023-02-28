@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Countexample from "./Components/Countexample";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
@@ -10,7 +9,6 @@ import Product from "./Pages/Product";
 function App() {
   return (
     <div className="App relative pb-10 min-h-screen">
-      {/* <Countexample/> */}
       <Router>
         <Header />
         <div className="p-3">
