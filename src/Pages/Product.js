@@ -27,6 +27,7 @@ const Product = () => {
               <div>
                   <img
                       src={products.data.images}
+                      alt='gambar prduct'
                   />
               </div>
               <div className="font-bold text-xl mb-3">
