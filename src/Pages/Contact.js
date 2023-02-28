@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Helloworld from '../Components/Helloworld'
 
 const Contact = () => {
   return (
