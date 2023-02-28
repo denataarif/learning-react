@@ -28,7 +28,7 @@ export function useAxiosGet(URL){
               error: true,
             })
           );
-      }, []);
+      }, [URL]);
 
       return request
 }

@@ -23,7 +23,7 @@ const Product = () => {
     if(products.data){
         return(
             content = 
-            <div>
+            <div className="flex flex-col items-center">
             <h1 className="text-2xl font-bold mb-3">{products.data.name}</h1>
               <div>
                   <img

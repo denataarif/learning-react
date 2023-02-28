@@ -12,9 +12,9 @@ const ProductCard = (props) => {
           />
         </Link>
         <Link to={`/product/${props.product.id}`}>
-          <h5 className="text-xl font-bold mb-3">{props.product.name}</h5>
+          <h5 className="text-lg font-bold mb-3">{props.product.name}</h5>
         </Link>
-        <div className="text-lg font-bold text-black mb-3">
+        <div className="text-base font-bold text-black mb-3">
           $ {props.product.price}
         </div>
         <p className="mb-3">{props.product.description}</p>

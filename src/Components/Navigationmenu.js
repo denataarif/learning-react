@@ -20,11 +20,6 @@ const Navigationmenu = (props) => {
             Contact
           </Link>
         </li>
-        <li>
-          <Link to="/product/1" onClick={props.Closemenu} className='text-blue-500 py-3 border-b block'>
-            Products
-          </Link>
-        </li>
       </ul>
     </>
   );
